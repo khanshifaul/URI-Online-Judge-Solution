@@ -1,0 +1,52 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "URI_1000.HelloWorld",
+            "projectName": "URI-Online-Judge-Solution_cbc85258"
+        },
+        {
+            "type": "java",
+            "name": "Launch URI_1000",
+            "request": "launch",
+            "mainClass": "URI_1000.URI_1000",
+            "projectName": "URI-Online-Judge-Solution_cbc85258"
+        },
+        {
+            "type": "java",
+            "name": "Launch URI",
+            "request": "launch",
+            "mainClass": "URI_1000.URI",
+            "projectName": "URI-Online-Judge-Solution_cbc85258"
+        },
+        {
+            "name": "C/C++: g++.exe build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: g++.exe build active file"
+        }
+    ]
+}

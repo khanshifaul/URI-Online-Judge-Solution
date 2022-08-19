@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "URI-Online-Judge-Solution_cbc85258"
+        },
+        {
+            "type": "java",
             "name": "Launch HelloWorld",
             "request": "launch",
             "mainClass": "URI_1000.HelloWorld",

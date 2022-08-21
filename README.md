@@ -25,10 +25,25 @@
 + [URI 1035](URI_1035/URI_1035.md)
 
 ## Ad-Hoc Problems
++ [URI 1026](URI_1026/URI_1026.md)
+
 ## Strings Problems
++
+
 ## Data Structures and Libraries Problems
++
+
 ## Mathematics Problems
++
+
 ## Paradigms Problems
++
+
 ## Graph Problems
++
+
 ## Computational Geometry Problems
++
+
 ## SQL Problems
++

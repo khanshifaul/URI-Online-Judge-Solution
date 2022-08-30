@@ -1,10 +1,10 @@
 #include <iostream>
 #include <iomanip>
-using namespace std;
 int main()
 {
-    float A, B, MEDIA;
+    double A, B;
     std::cin >> A >> B;
-    cout << "MEDIA = " << fixed << setprecision(5) << MEDIA << endl;
+    float MEDIA = (A * 3.5 + B * 7.5) / (3.5 + 7.5);
+    std::cout << "MEDIA = " << std::fixed << std::setw(5) << std::setprecision(5) << MEDIA << std::endl;
     return 0;
 }

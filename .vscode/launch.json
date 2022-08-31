@@ -5,6 +5,13 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
+            "mainClass": "URI_1005.Main",
+            "projectName": "URI-Online-Judge-Solution_cbc85258"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
             "mainClass": "URI_1001.Main",
             "projectName": "URI-Online-Judge-Solution_cbc85258"
         },
